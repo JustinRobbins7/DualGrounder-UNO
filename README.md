@@ -8,6 +8,7 @@ Created by the KNowledge Representation and Natural Language Processing Lab at t
 	dist - Contains the executable file; this is where you run dualgrounder
 	dualgrounder.py - Original python code of the executable
 	dualgrounder.spec - Spec file for the executable
+	benchmark - Contains the benchmark encodings and instances used to test DualGrounder
 
 ## Python File Installation Requirements
 Python Packages:
