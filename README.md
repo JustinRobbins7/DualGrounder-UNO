@@ -1,6 +1,6 @@
 # DualGrounder
 Incremental ASP solving problem leveraging Clingo's API to lazily and incrementally ground programs.
-Created by the KNowledge Representation and Natural Language Processing Lab at the University of Nebraska at Omaha by Justin Robbins and Yuliya Lierler.
+Created by the Knowledge Representation and Natural Language Processing Lab at the University of Nebraska at Omaha by Justin Robbins and Yuliya Lierler.
 
 ## Files
 	__pycache__ - Cache for the executable
@@ -18,7 +18,7 @@ Python Packages:
 
 The dualgrounder executable can be run using the following command in the /dist folder:
 
-dualgrounder encoding-file instance-file lazy-file --splitprog
+	dualgrounder encoding-file instance-file lazy-file --splitprog
 
 ## Arguments
 	encoding-file - File containing the ASP rules of the problem encoding not in the lazy-file
