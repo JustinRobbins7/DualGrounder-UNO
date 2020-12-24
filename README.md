@@ -1,14 +1,14 @@
-DualGrounder:
-- Incremental ASP solving problem leveraging Clingo's API to lazily and incrementally ground programs.
+#DualGrounder#
+Incremental ASP solving problem leveraging Clingo's API to lazily and incrementally ground programs.
 
-Files:
+##Files##
 	__pycache__ - Cache for the executable
 	build - Libraries for the executable
 	dist - Contains the executable file; this is where you run dualgrounder
 	dualgrounder.py - Original python code of the executable
 	dualgrounder.spec - Spec file for the executable
 
-Python File Installation Requirements:
+##Python File Installation Requirements##
 	- Clingo 5
 	Python Packages:
 		- Python 3.7
@@ -19,7 +19,7 @@ The dualgrounder executable can be run using the following command in the /dist 
 
 dualgrounder encoding-file instance-file lazy-file --splitprog
 
-Arguments:
+##Arguments##
 	encoding-file - File containing the ASP rules of the problem encoding not in the lazy-file
 	instance-file - File containing the ASP rules of the problem instance
 	lazy-file - File containing the ASP rules to be instantiated lazily
@@ -46,7 +46,7 @@ These arguments can be used to customize dualgrounder's behavior:
 --iterlim=int
 	Takes in an integer value that limits the number of ground-solve iterations dualgrounder will execute.
 
-Benchmarks:
+##Benchmarks##
 	- NLP/NLU
 	- Packing
 	- StableMarriage
@@ -57,6 +57,6 @@ Benchmarks:
 	StableMarriage example command:
 		python dualgrounder.py ../benchmarks/StableMarriage/encodings/SM-nc/encoding-nc.asp ../benchmarks/StableMarriage/instances/stablemarriage_0-perc_inst-1 ../benchmarks/StableMarriage/lazy-SM.asp --splitprog 
 
-License:
-	- DualGrounder is distibuted under the MIT license
+##License##
+	DualGrounder is distibuted under the MIT license
 		
