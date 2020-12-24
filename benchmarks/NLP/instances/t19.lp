@@ -1,0 +1,25 @@
+% instance t19
+goal(c(inst,get19,getting)).
+goal(c(agent_get,get19,mary19)).
+goal(c(name,mary19,mary)).
+goal(c(patient_get,get19,gun19)).
+goal(c(inst,gun19,gun)).
+goal(c(precede,get19,go19)).
+goal(c(inst,go19,going)).
+goal(c(goer,go19,mary19)).
+goal(c(dest_go,go19,sm19)).
+goal(c(inst,sm19,smarket)).
+goal(c(precede,go19,find19)).
+goal(c(inst,find19,finding)).
+goal(c(finder,find19,mary19)).
+goal(c(thing_found,find19,milk19)).
+goal(c(inst,milk19,milk)).
+goal(c(on,milk19,shf19)).
+goal(c(inst,shf19,shelf)).
+goal(c(precede,find19,get19b)).
+goal(c(inst,get19b,getting)).
+goal(c(agent_get,get19b,mary19)).
+goal(c(patient_get,get19b,money19)).
+goal(c(inst,money19,money)).
+goal(c(from_get,get19b,csh19)).
+goal(c(occupation,csh19,cashier)).

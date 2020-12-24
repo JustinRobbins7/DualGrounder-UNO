@@ -1,0 +1,23 @@
+% instance 10
+goal(c(inst,go10,going)).
+goal(c(goer,go10,fred10)).
+goal(c(name,fred10,fred)).
+goal(c(dest_go,go10,sm10)).
+goal(c(inst,sm10,smarket)).
+goal(c(precede,go10,point10)).
+goal(c(inst,point10,pointing)).
+goal(c(agent_point,point10,fred10)).
+goal(c(instr_point,point10,gun10)).
+goal(c(inst,gun10,gun)).
+goal(c(patient_point,point10,o10)).
+goal(c(own,o10,sm10)).
+goal(c(precede,point10,pack10)).
+goal(c(inst,pack10,packing)).
+goal(c(agent_pack,pack10,fred10)).
+goal(c(patient_pack,pack10,bag10)).
+goal(c(inst,bag10,bag)).
+goal(c(precede,pack10,go10b)).
+goal(c(inst,go10b,going)).
+goal(c(goer,go10b,fred10)).
+goal(c(dest_go,go10b,airport10)).
+goal(c(inst,airport10,airport)).

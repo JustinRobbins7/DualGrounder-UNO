@@ -1,0 +1,26 @@
+% instance 21
+goal(c(inst,go21,going)).
+goal(c(goer,go21,bill21)).
+goal(c(name,bill21,bill)).
+goal(c(vehicle,go21,bus21)).
+goal(c(inst,bus21,bus)).
+goal(c(dest_go,go21,rest21)).
+goal(c(inst,rest21,restaurant)).
+goal(c(precede,go21,drink21)).
+goal(c(inst,drink21,drinking)).
+goal(c(drinker,drink21,bill21)).
+goal(c(patient_drink,drink21,ms21)).
+goal(c(inst,ms21,milkshake)).
+goal(c(precede,drink21,point21)).
+goal(c(inst,point21,pointing)).
+goal(c(agent_point,point21,bill21)).
+goal(c(instr_point,point21,gun21)).
+goal(c(inst,gun21,gun)).
+goal(c(patient_point,point21,o21)).
+goal(c(own,o21,rest21)).
+goal(c(precede,point21,get21)).
+goal(c(inst,get21,getting)).
+goal(c(agent_get,get21,bill21)).
+goal(c(patient_get,get21,money21)).
+goal(c(inst,money21,money)).
+goal(c(from_get,get21,o21)).

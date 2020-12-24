@@ -1,0 +1,21 @@
+% instance t23
+goal(c(inst,buy23,buying)).
+goal(c(buyer,buy23,john23)).
+goal(c(name,john23,john)).
+goal(c(thing_bought,buy23,tk23)).
+goal(c(inst,tk23,ticket)).
+goal(c(precede,buy23,go23)).
+goal(c(inst,go23,going)).
+goal(c(goer,go23,john23)).
+goal(c(dest_go,go23,rest23)).
+goal(c(inst,rest23,restaurant)).
+goal(c(precede,go23,order23)).
+goal(c(inst,order23,ordering)).
+goal(c(agent_order,order23,john23)).
+goal(c(patient_order,order23,ms23)).
+goal(c(inst,ms23,milkshake)).
+goal(c(precede,order23,geton23)).
+goal(c(inst,geton23,getting_on)).
+goal(c(agent_get_on,geton23,john23)).
+goal(c(patient_get_on,geton23,plane23)).
+goal(c(inst,plane23,plane)).

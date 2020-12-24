@@ -1,0 +1,13 @@
+area(200,150).
+max_square_num(11).
+square(1,148).
+square(2,34).
+square(3,49).
+square(4,45).
+square(5,5).
+square(6,11).
+square(7,8).
+square(8,9).
+square(9,11).
+square(10,4).
+square(11,5).

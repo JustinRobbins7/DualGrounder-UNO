@@ -1,0 +1,27 @@
+% instance 22
+goal(c(inst,give22,giving)).
+goal(c(giver,give22,fred22)).
+goal(c(name,fred22,fred)).
+goal(c(recipient,give22,bd22)).
+goal(c(occupation,bd22,busdriver)).
+goal(c(thing_given,give22,tk22)).
+goal(c(inst,tk22,token)).
+goal(c(precede,give22,getoff22)).
+goal(c(inst,getoff22,getting_off)).
+goal(c(agent_get_off,getoff22,fred22)).
+goal(c(patient_get_off,getoff22,bus22)).
+goal(c(inst,bus22,bus)).
+goal(c(place_get_off,getoff22,park22)).
+goal(c(inst,park22,park)).
+goal(c(precede,getoff22,go22)).
+goal(c(inst,go22,going)).
+goal(c(goer,go22,fred22)).
+goal(c(dest_go,go22,rest22)).
+goal(c(inst,rest22,restaurant)).
+goal(c(precede,go22,get22)).
+goal(c(inst,get22,getting)).
+goal(c(agent_get,get22,fred22)).
+goal(c(patient_get,get22,money22)).
+goal(c(inst,money22,money)).
+goal(c(from_get,get22,o22)).
+goal(c(own,o22,rest22)).
